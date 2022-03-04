@@ -305,7 +305,9 @@ const App = () => {
 
           <div className="flex flex-col mb-4">
             <label htmlFor="hope" className="mb-2">Harapan Untuk Coding Bootcamp Ini</label>
-            <textarea id="hope" cols="30" rows="10"></textarea>
+            <textarea id="hope" cols="30" rows="10">
+              {data.harapan}
+            </textarea>
           </div>
 
           <div className="flex justify-center items-center">
